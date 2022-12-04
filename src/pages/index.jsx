@@ -21,6 +21,10 @@ import logoAirbnb from '@/images/logos/airbnb.svg'
 import logoFacebook from '@/images/logos/facebook.svg'
 import logoPlanetaria from '@/images/logos/planetaria.svg'
 import logoStarbucks from '@/images/logos/starbucks.svg'
+import logoRealis from '@/images/photos/realis.PNG'
+import logoTiger from '@/images/photos/tigerit.PNG'
+import logosp from '@/images/photos/sp.PNG'
+import logos9 from '@/images/photos/s9.PNG'
 import { generateRssFeed } from '@/lib/generateRssFeed'
 import { getAllArticles } from '@/lib/getAllArticles'
 import { formatDate } from '@/lib/formatDate'
@@ -139,35 +143,36 @@ function Newsletter() {
 function Resume() {
   let resume = [
     {
-      company: 'Planetaria',
-      title: 'CEO',
-      logo: logoPlanetaria,
-      start: '2019',
-      end: {
-        label: 'Present',
-        dateTime: new Date().getFullYear(),
-      },
+      company: 'Realis Simulation',
+      title: 'DevOps Engineer',
+      logo: logoRealis,
+      start: '2022',
+      end: '2022',
+      // end: {
+      //   label: 'Present',
+      //   dateTime: new Date().getFullYear(),
+      // },
     },
     {
-      company: 'Airbnb',
-      title: 'Product Designer',
-      logo: logoAirbnb,
-      start: '2014',
+      company: 'TigerIT Bangladesh Limited',
+      title: 'DevOps Engineer',
+      logo: logoTiger,
+      start: '2019',
+      end: '2021',
+    },
+    {
+      company: 'SoftwarePeople Bangladesh Limited',
+      title: 'Opeartions Engineer',
+      logo: logosp,
+      start: '2015',
       end: '2019',
     },
     {
-      company: 'Facebook',
-      title: 'iOS Software Engineer',
-      logo: logoFacebook,
+      company: 'Solution9 Limited',
+      title: 'Tech Support',
+      logo: logos9,
       start: '2011',
-      end: '2014',
-    },
-    {
-      company: 'Starbucks',
-      title: 'Shift Supervisor',
-      logo: logoStarbucks,
-      start: '2008',
-      end: '2011',
+      end: '2015',
     },
   ]
 
@@ -251,27 +256,29 @@ export default function Home({ articles }) {
     <>
       <Head>
         <title>
-          Salman Isha Arabi - Software designer, founder, and amateur astronaut
+          Mohd Salman Isha - DevOps Engineer
         </title>
         <meta
           name="description"
-          content="I’m Salman, a software designer and entrepreneur based in New York City. I’m the founder and CEO of Planetaria, where we develop technologies that empower regular people to explore space on their own terms."
+          content="I am an enthusiastic and committed DevOps engineer with 10+ years experience. Throughout my professional career, I have gained practical expertise managing cloud infrastructure and successfully managing the setup and deployment of infrastructure and services such virtualization, database administration, load balancing, automation, and so forth."
         />
       </Head>
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            DevOps Engineer, Something is being deploy
+            Mohd Salman Isha | DevOps Engineer | Photographer
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Salman, a software designer and entrepreneur based in New York
-            City. I’m the founder and CEO of Planetaria, where we develop
-            technologies that empower regular people to explore space on their
-            own terms.
+          I’m Salman, a DevOps Engineer and photographer based in London.
+          I am an enthusiastic and committed DevOps engineer with 10+ years experience. 
+          Throughout my professional career, I have gained practical expertise managing cloud 
+          infrastructure and successfully managing the setup and deployment of infrastructure 
+          and services such virtualization, database administration, load balancing, automation, 
+          and so forth.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
-              href="https://twitter.com"
+              href="https://twitter.com/Arabi024"
               aria-label="Follow on Twitter"
               icon={TwitterIcon}
             />
@@ -281,12 +288,12 @@ export default function Home({ articles }) {
               icon={InstagramIcon}
             />
             <SocialLink
-              href="https://github.com"
+              href="https://github.com/SalmanIsha"
               aria-label="Follow on GitHub"
               icon={GitHubIcon}
             />
             <SocialLink
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/salmanisha/"
               aria-label="Follow on LinkedIn"
               icon={LinkedInIcon}
             />
