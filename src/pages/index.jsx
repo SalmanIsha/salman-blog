@@ -12,11 +12,11 @@ import {
   GitHubIcon,
   LinkedInIcon,
 } from '@/components/SocialIcons'
-import image1 from '@/images/photos/collage.jpg'
-import image2 from '@/images/photos/rose.jpg'
-import image3 from '@/images/photos/salman.jpg'
-import image4 from '@/images/photos/skywords.jpg'
-import image5 from '@/images/photos/image-5.jpg'
+import image1 from '@/images/photos/cover-1.jpg'
+import image2 from '@/images/photos/cover-2.jpg'
+import image3 from '@/images/photos/cover-3.jpg'
+import image4 from '@/images/photos/cover-4.jpg'
+import image5 from '@/images/photos/cover-5.jpg'
 // import logoAirbnb from '@/images/logos/airbnb.svg'
 // import logoFacebook from '@/images/logos/facebook.svg'
 // import logoPlanetaria from '@/images/logos/planetaria.svg'
