@@ -22,14 +22,14 @@ const projects = [
     name: 'Marcombox',
     description:
       'It is a Digital asset management software. Without writing a single line of code, it allows you the freedom to create your own (meta)data structure to meet your unique demands.',
-    link: { href: 'https://www.softwarepeople.biz/', label: 'github.com' },
+    link: { href: 'https://www.softwarepeople.biz/', label: 'Marcombox' },
     logo: logoace,
   },
   {
     name: 'NID Application System',
     description:
       'Bangladesh NID Portal. Citizens who already have an NID can request a correction or reissue. Citizens can apply for a new NID if they do not already have one.',
-    link: { href: 'https://services.nidw.gov.bd/', label: 'github.com' },
+    link: { href: 'https://services.nidw.gov.bd/', label: 'NID Portal' },
     logo: logoace,
   },
   // {
