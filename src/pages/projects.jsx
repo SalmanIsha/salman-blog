@@ -3,48 +3,49 @@ import Head from 'next/head'
 
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
-import logoAnimaginary from '@/images/logos/animaginary.svg'
-import logoCosmos from '@/images/logos/cosmos.svg'
-import logoHelioStream from '@/images/logos/helio-stream.svg'
-import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
+// import logoAnimaginary from '@/images/logos/animaginary.svg'
+// import logoCosmos from '@/images/logos/cosmos.svg'
+// import logoHelioStream from '@/images/logos/helio-stream.svg'
+// import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
+// import logoPlanetaria from '@/images/logos/planetaria.svg'
+import logoace from '@/images/photos/ace.PNG'
 
 const projects = [
   {
-    name: 'Planetaria',
+    name: 'BrandShare',
     description:
-      'Creating technology to empower civilians to explore space on their own terms.',
-    link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
-    logo: logoPlanetaria,
+      'a versatile and scalable Marketing Resource Management (MRM) application that supports various processes across various markets and business units.',
+    link: { href: 'https://www.softwarepeople.biz/', label: 'BrandShare' },
+    logo: logoace,
   },
   {
-    name: 'Animaginary',
+    name: 'Marcombox',
     description:
-      'High performance web animation library, hand-written in optimized WASM.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoAnimaginary,
+      'It is a Digital asset management software. Without writing a single line of code, it allows you the freedom to create your own (meta)data structure to meet your unique demands.',
+    link: { href: 'https://www.softwarepeople.biz/', label: 'github.com' },
+    logo: logoace,
   },
   {
-    name: 'HelioStream',
+    name: 'NID Application System',
     description:
-      'Real-time video streaming library, optimized for interstellar transmission.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoHelioStream,
+      'Bangladesh NID Portal. Citizens who already have an NID can request a correction or reissue. Citizens can apply for a new NID if they do not already have one.',
+    link: { href: 'https://services.nidw.gov.bd/', label: 'github.com' },
+    logo: logoace,
   },
-  {
-    name: 'cosmOS',
-    description:
-      'The operating system that powers our Planetaria space shuttles.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoCosmos,
-  },
-  {
-    name: 'OpenShuttle',
-    description:
-      'The schematics for the first rocket I designed that successfully made it to orbit.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoOpenShuttle,
-  },
+  // {
+  //   name: 'cosmOS',
+  //   description:
+  //     'The operating system that powers our Planetaria space shuttles.',
+  //   link: { href: '#', label: 'github.com' },
+  //   logo: logoCosmos,
+  // },
+  // {
+  //   name: 'OpenShuttle',
+  //   description:
+  //     'The schematics for the first rocket I designed that successfully made it to orbit.',
+  //   link: { href: '#', label: 'github.com' },
+  //   logo: logoOpenShuttle,
+  // },
 ]
 
 function LinkIcon(props) {
@@ -65,12 +66,12 @@ export default function Projects() {
         <title>Projects</title>
         <meta
           name="description"
-          content="Things I’ve made trying to put my dent in the universe."
+          content="Things I've experienced throughout my professional careers."
         />
       </Head>
       <SimpleLayout
-        title="Things I’ve made trying to put my dent in the universe."
-        intro="I’ve worked on tons of little projects over the years but these are the ones that I’m most proud of. Many of them are open-source, so if you see something that piques your interest, check out the code and contribute if you have ideas for how it can be improved."
+        title="Things I've experienced throughout my professional careers"
+        intro="Over the years, I've worked on a tonne of tiny projects, but these are the ones I'm most proud of. One of them serves as the hub for biometric data for an entire nation, while others are utilised on a worldwide scale."
       >
         <ul
           role="list"
